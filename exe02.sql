@@ -13,14 +13,14 @@ dataentrada DATE NOT NULL
 );
 
 INSERT INTO produtos (nome, valor, descricao, dataentrada) VALUES
-('Caneta Azul', 2.50, 'Caneta esferográfica azul com ponta fina.', '2024-01-08'),
-('Lápis Preto', 1.20, 'Lápis de grafite preto nº 2.', '2024-01-08'),
-('Borracha Branca', 0.80, 'Borracha branca para apagar lápis.', '2024-01-08'),
-('Caderno Pautado', 15.00, 'Caderno com 100 folhas pautadas.', '2024-01-08'),
-('Estojo Escolar', 20.00, 'Estojo com zíper para guardar lápis, canetas e outros materiais.', '2024-01-08'),
-('Mochila Escolar', 100.00, 'Mochila com rodinhas para carregar livros e materiais escolares.', '2024-01-08'),
-('Quadro Negro', 501.00, 'Quadro negro 350cmX120cm', '2024-01-08'),
-('Tinta Guache', 10.00, 'Kit com 6 cores de tinta guache.', '2024-01-08');
+("Caneta Azul", 2.50, "Caneta esferográfica azul com ponta fina.", "2024-01-08"),
+("Lápis Preto", 1.20, "Lápis de grafite preto nº 2.", "2024-01-08"),
+("Borracha Branca", 0.80, "Borracha branca para apagar lápis.", "2024-01-08"),
+("Caderno Pautado", 15.00, "Caderno com 100 folhas pautadas.", "2024-01-08"),
+("Estojo Escolar", 20.00, "Estojo com zíper para guardar lápis, canetas e outros materiais.", "2024-01-08"),
+("Mochila Escolar", 100.00, "Mochila com rodinhas para carregar livros e materiais escolares.", "2024-01-08"),
+("Quadro Negro", 501.00, "Quadro negro 350cmX120cm", "2024-01-08"),
+("Tinta Guache", 10.00, "Kit com 6 cores de tinta guache.", "2024-01-08");
 
 SELECT * FROM produtos WHERE valor > 500;
 

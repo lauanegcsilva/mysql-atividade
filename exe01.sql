@@ -13,11 +13,11 @@ dataentrada DATE NOT NULL
 );
 
 INSERT INTO funcionarios (nome, cargo, salario, dataentrada) VALUES
-('Lauane Silva', 'Desenvolvedor de Software', 8000.00, "2023-07-29"),
-('Helena Mascarenhas', 'Tech Lead', 9900.00, "2020-12-15"),
-('Matheus Souza', 'Product Owner', 4000.00,  "2022-10-27"),
-('Maria Paula Fernandes', 'Estagiário', 1800.00, "2023-12-15"),
-('Lucas Pereira', 'Contador', 2000.00, "2020-09-15");
+("Lauane Silva", "Desenvolvedor de Software", 8000.00, "2023-07-29"),
+("Helena Mascarenhas", "Tech Lead", 9900.00, "2020-12-15"),
+("Matheus Souza", "Product Owner", 4000.00, "2022-10-27"),
+("Maria Paula Fernandes", "Estagiário", 1800.00, "2023-12-15"),
+("Lucas Pereira", "Contador", 2000.00, "2020-09-15");
 
 SELECT * FROM funcionarios WHERE salario > 2000;
 
